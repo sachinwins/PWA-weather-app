@@ -1,0 +1,33 @@
+{
+  "name": "proogressive-weather-app",
+  "version": "1.0.0",
+  "description": "Progressive weather app with service worker",
+  "author": "Sachin Varma",
+  "private": true,
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.13.4"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.1"
+  },
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^6.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  }
+}
